@@ -1,57 +1,42 @@
-# React Navigation 5
+# React Navigation  [![Circle CI](https://circleci.com/gh/reactjs/react-navigation.svg?style=svg&circle-token=296a074544f10b6580652bd283b2c1817154dc20)](https://circleci.com/gh/reactjs/react-navigation)
 
-[![Build Status][build-badge]][build]
-[![Code Coverage][coverage-badge]][coverage]
-[![MIT License][license-badge]][license]
+*Learn once, navigate anywhere.*
 
-Routing and navigation for your React Native apps.
+Browse the docs on [reactnavigation.org](https://navigate:navigate@reactnavigation.org/). (The username/pass is `navigate:navigate`)
 
-Documentation can be found at [reactnavigation.org](https://reactnavigation.org/).
+## [Getting started](https://reactnavigation.org/docs/intro/)
 
-If you are looking for version 4, the code can be found in the [4.x branch](https://github.com/react-navigation/react-navigation/tree/4.x).
+1. Create a new React Native App
+  ```
+  react-native init SimpleApp
+  cd SimpleApp
+  ```
 
-## Contributing
+2. Install the latest version of react-navigation from npm
+  ```
+  yarn add react-navigation
+  ```
+  or
+  ```
+  npm install --save react-navigation
+  ```
 
-Please read through our [contribution guide](CONTRIBUTING.md) a to get started!
+3. Run the new app
+  ```
+  react-native run-android # or:
+  react-native run-ios
+  ```
 
-## Installing from a fork on GitHub
+## Advanced guide
 
-Since we use a monorepo, it's not possible to install a package from the repository URL. If you need to install a forked version from Git, you can use [`gitpkg`](https://github.com/ramasilveyra/gitpkg).
+- [Redux integration](https://reactnavigation.org/docs/guides/redux)
+- [Web integration](https://reactnavigation.org/docs/guides/web)
+- [Deep linking](https://reactnavigation.org/docs/guides/linking)
+- [Contributors guide](https://reactnavigation.org/docs/guides/contributors)
 
-First install `gitpkg`:
+## React Navigation API
 
-```sh
-yarn global add gitpkg
-```
+- [Navigators](https://reactnavigation.org/docs/navigators/)
+- [Routers](https://reactnavigation.org/docs/routers/)
+- [Views](https://reactnavigation.org/docs/views/)
 
-Then follow these steps to publish and install a forked package:
-
-1. Fork this repo to your account and clone the forked repo to your local machine
-1. Open a Terminal and `cd` to the location of the cloned repo
-1. Run `yarn` to install any dependencies
-1. If you want to make any changes, make them and commit
-1. Now `cd` to the package directory that you want to use (e.g. `cd packages/stack` for `@react-navigation/stack`)
-1. Run `gitpkg publish` to publish the package to your repo
-
-After publishing, you should see something like this:
-
-```sh
-Package uploaded to git@github.com:<user>/<repo>.git with the name <name>
-```
-
-You can now install the dependency in your project:
-
-```sh
-yarn add <user>/<repo>.git#<name>
-```
-
-Remember to replace `<user>`, `<repo>` and `<name>` with right values.
-
-<!-- badges -->
-
-[build-badge]: https://img.shields.io/circleci/project/github/react-navigation/react-navigation/master.svg?style=flat-square
-[build]: https://circleci.com/gh/react-navigation/react-navigation
-[coverage-badge]: https://img.shields.io/codecov/c/github/react-navigation/react-navigation.svg?style=flat-square
-[coverage]: https://codecov.io/github/react-navigation/react-navigation
-[license-badge]: https://img.shields.io/npm/l/@react-navigation/core.svg?style=flat-square
-[license]: https://opensource.org/licenses/MIT

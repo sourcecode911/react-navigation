@@ -1,34 +1,16 @@
-.DS_Store
-.cache
-.vscode
-.idea
-.expo
-.gradle
-.project
-.settings
+# VSCode
+.vscode/
+jsconfig.json
 
-local.properties
-
-/coverage/
-/types/
-/dist/
-/lib/
-
-node_modules/
-web-build/
-web-report/
-
-xcuserdata
-generated
+# NodeJS
+npm-debug.log
+node_modules
+lib-rn
 lib
-build
+yarn-error.log
 
-npm-debug.*
+# OS X
+.DS_Store
 
-*.log
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
+# Exponent
+.exponent
