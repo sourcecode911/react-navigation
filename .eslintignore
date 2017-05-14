@@ -1,10 +1,6 @@
-node_modules/
-coverage/
-dist/
-lib/
-web-build/
-web-report/
+flow-typed
+node_modules
+lib*
 
-.expo/
-.yarn/
-.vscode/
+## Temporary
+examples
