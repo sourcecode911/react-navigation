@@ -113,11 +113,15 @@
     "prop-types": "^15.5.10",
     "react-native-drawer-layout-polyfill": "^1.3.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "react-native-tab-view": "^0.0.69"
 >>>>>>> updated react-native-tab-view
 =======
     "react-native-tab-view": "^0.0.66"
 >>>>>>> reverted back to 0.0.66 react-native-tab-view
+=======
+    "react-native-tab-view": "0.0.67"
+>>>>>>> Upgraded to react-native-tab-view@0.0.67
   },
   "jest": {
     "notify": true,
