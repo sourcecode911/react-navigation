@@ -84,6 +84,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "^0.48.4",
     "react-native-vector-icons": "^4.2.0",
+<<<<<<< HEAD
     "react-test-renderer": "^15.6.1"
 =======
     "eslint": "^3.19.0",
@@ -122,6 +123,9 @@
 =======
     "react-native-tab-view": "0.0.67"
 >>>>>>> Upgraded to react-native-tab-view@0.0.67
+=======
+    "react-test-renderer": "^16.0.0"
+>>>>>>> Improve StatusBar/Header Behavior (#2669)
   },
   "jest": {
     "notify": true,
