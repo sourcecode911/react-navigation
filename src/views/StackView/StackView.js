@@ -26,11 +26,11 @@ class StackView extends React.Component {
         onTransitionStart={this.props.onTransitionStart}
         onTransitionEnd={(lastTransition, transition) => {
           const { onTransitionEnd, navigation } = this.props;
-          navigation.dispatch(
+          /*navigation.dispatch(
             NavigationActions.completeTransition({
               key: navigation.state.key,
             })
-          );
+          );*/
           onTransitionEnd && onTransitionEnd(lastTransition, transition);
         }}
       />
